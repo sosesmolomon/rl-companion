@@ -1,23 +1,35 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
-import TheWelcome from './components/TheWelcome.vue'
 </script>
 
 <template>
   <header>
-    <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="125" height="125" />
+    <img alt="RL icon" class="logo" src="./assets/rl-icon.svg" />
 
     <div class="wrapper">
-      <HelloWorld msg="You did it!" />
+      <h1 class="title"> "Welcome to Your Rockt League Companion"</h1>
     </div>
   </header>
 
   <main>
-    <TheWelcome />
+      hey
   </main>
 </template>
 
+
+
+
+
 <style scoped>
+.title {
+  font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
+    'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  display: block;
+  font-weight: 100;
+  font-size: 40px;
+  color: #35495e;
+  letter-spacing: 1px;
+}
+
 header {
   line-height: 1.5;
 }
@@ -31,7 +43,6 @@ header {
   header {
     display: flex;
     place-items: center;
-    padding-right: calc(var(--section-gap) / 2);
   }
 
   .logo {
